@@ -14,7 +14,7 @@ public class Pedido {
         return this.etiqueta.emitir();
     }
 
-    public String emitirDocumentoFiscal() {
+    public String emitirNotaFiscal() {
         return this.notaFiscal.emitir();
     }
 }
